@@ -22,7 +22,7 @@ jobs:
           name: dist
           path: dist/
       - name: Get API key
-        run: echo "PROFESSOR=${{ secrets.PROFESSOR }}"
+        run: echo "PROFESSOR=${{ secrets.blockchain }}"
         env:
           PROFESSOR: ${{ secrets.blockchain }}
 
